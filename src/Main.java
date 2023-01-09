@@ -1,21 +1,21 @@
 public class Main {
     public static void main(String[] args) {
-        int shet = 200;
-        int popolnenie = 700;
-        int bonus = popolnenie / 100;
+        int check = 800;
+        int replenishment = 1700;
+        int bonus = replenishment / 100;
 
-         if (popolnenie >= 1000){
-           bonus = popolnenie / 100;
-         }else{
-             boolean x = popolnenie < 1000;
-             {
-             bonus = 0;
-             }
+        if (replenishment >= 1000) {
+            bonus = replenishment / 100;
+        } else {
+            boolean x = replenishment < 1000;
+            {
+                bonus = 0;
+            }
 
-         }
-        int balans = shet + popolnenie + bonus;
-        System.out.println("Начальная сумма:" + shet);
-        System.out.println("Сумма пополнения:" + popolnenie);
+        }
+        int balans = check + replenishment + bonus;
+        System.out.println("Начальная сумма:" + check);
+        System.out.println("Сумма пополнения:" + replenishment);
         System.out.println("итоговый счет:" + balans);
         System.out.println("бонус:" + bonus);
         // Объявляете переменные для входных данных и
