@@ -1,16 +1,14 @@
 public class Main {
     public static void main(String[] args) {
         int check = 800;
-        int replenishment = 1700;
+        int replenishment = 2700;
         int bonus = replenishment / 100;
 
         if (replenishment >= 1000) {
             bonus = replenishment / 100;
         } else {
-            boolean x = replenishment < 1000;
-            {
-                bonus = 0;
-            }
+            boolean loss = replenishment < 1000;
+            bonus = 0;
 
         }
         int balans = check + replenishment + bonus;
